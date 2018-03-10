@@ -18,6 +18,8 @@ server.xml <br>
 
 #### apache的ab压力测试
 ab -n1000 -c300 -p "/home/bonjour/post_arguments" -T "application/x-www-form-urlencoded"  http://localhost:8080/Redis_SecKill/seckill <br>
+
+post_arguments:product=mac&user=xxx <br>
 测压结果
 ```
 Benchmarking localhost (be patient)
